@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="delete.aspx.cs" Inherits="WebApplication3.delete" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user_update.aspx.cs" Inherits="WebApplication3.user_update" %>
 
 <!DOCTYPE html>
 
@@ -18,8 +18,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <div style="height: 704px; width: 831px">
-     <!--  wrapper -->
+    <div>
+    <!--  wrapper -->
     <div id="wrapper">
         <!-- navbar top -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  href="dashboard.aspx">
+                <a  href="userdb.aspx">
                     <img src="assets/img/logo.png" alt="" style="width:180px;height:50px" />
                 </a>
             </div>
@@ -99,15 +99,11 @@
                         <a href=""><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
                     
-                     <li>
-                        <a href="create.aspx"><i class="fa fa-edit fa-fw">CREATE</i></a>
-                    </li>
+                     <
                     <li>
                         <a href="update.aspx"><i class="fa fa-table fa-fw">UPDATE</i></a>
                     </li>
-                    <li>
-                        <a href="delete.aspx"><i class="fa fa-scissors fa-fw">DELETE</i></a>
-                    </li>
+                    
                      
                     </li>
                                        
@@ -133,7 +129,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
+                 <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
 
         <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 159px; top: 88px; position: absolute; right: 567px;"></asp:TextBox>
 
@@ -191,7 +187,7 @@
             <asp:ListItem>Mobile</asp:ListItem>
         </asp:DropDownList>
 
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 313px; position: absolute" Text="delete" />
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 313px; position: absolute" Text="update" />
 
             </div></div>
                                    
@@ -209,8 +205,8 @@
     <script src="assets/plugins/morris/morris.js"></script>
     <script src="assets/scripts/dashboard-demo.js"></script>
 
- 
-    
+       
+    </div>
     </form>
 </body>
 </html>

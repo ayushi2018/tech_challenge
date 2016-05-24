@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  href="index.html">
+                <a  href="dashboard.aspx">
                     <img src="assets/img/logo.png" alt="" style="width:180px;height:50px" />
                 </a>
             </div>

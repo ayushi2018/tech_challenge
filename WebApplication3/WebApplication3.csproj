@@ -115,6 +115,8 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="update.aspx" />
+    <Content Include="userdb.aspx" />
+    <Content Include="user_update.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +162,20 @@
     </Compile>
     <Compile Include="update.aspx.designer.cs">
       <DependentUpon>update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userdb.aspx.cs">
+      <DependentUpon>userdb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userdb.aspx.designer.cs">
+      <DependentUpon>userdb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user_update.aspx.cs">
+      <DependentUpon>user_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user_update.aspx.designer.cs">
+      <DependentUpon>user_update.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

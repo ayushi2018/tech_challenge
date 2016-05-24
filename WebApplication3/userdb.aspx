@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="delete.aspx.cs" Inherits="WebApplication3.delete" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="userdb.aspx.cs" Inherits="WebApplication3.userdb" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboad </title>
+    <title>Dashboad </title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
@@ -18,7 +18,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-  <div style="height: 704px; width: 831px">
+    <div>
      <!--  wrapper -->
     <div id="wrapper">
         <!-- navbar top -->
@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  href="dashboard.aspx">
+                <a  href="userdb.aspx">
                     <img src="assets/img/logo.png" alt="" style="width:180px;height:50px" />
                 </a>
             </div>
@@ -99,15 +99,11 @@
                         <a href=""><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
                     
-                     <li>
-                        <a href="create.aspx"><i class="fa fa-edit fa-fw">CREATE</i></a>
-                    </li>
+                    
                     <li>
-                        <a href="update.aspx"><i class="fa fa-table fa-fw">UPDATE</i></a>
+                        <a href="user_update.aspx"><i class="fa fa-table fa-fw">UPDATE</i></a>
                     </li>
-                    <li>
-                        <a href="delete.aspx"><i class="fa fa-scissors fa-fw">DELETE</i></a>
-                    </li>
+                    
                      
                     </li>
                                        
@@ -132,68 +128,14 @@
             </div>
 
             <div class="row">
+                <!-- Welcome -->
                 <div class="col-lg-12">
-                    <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
-
-        <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 159px; top: 88px; position: absolute; right: 567px;"></asp:TextBox>
-
-        <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 75px; top: 125px; position: absolute" Text="Field"></asp:Label>
-
-        
-         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 75px; top: 200px; position: absolute" Text="Field"></asp:Label>
-        <asp:Label ID="Label4" runat="server" style="z-index: 1; left: 75px; top: 230px; position: absolute" Text="Field"></asp:Label>
-
-        
-         <asp:Label ID="Label5" runat="server" style="z-index: 1; left: 75px; top: 162px; position: absolute" Text="Field"></asp:Label>
-
-
-        <asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; left: 158px; top: 130px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-        <asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; left: 158px; top: 166px; position: absolute; height: 16px; width: 129px">
-        <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem></asp:DropDownList>
-         <asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; left: 158px; top: 200px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-         <asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; left: 158px; top: 230px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 313px; position: absolute" Text="delete" />
-
-            </div></div>
+                    <div class="alert alert-info">
+                        <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>Welcome <b>Ayushi Bansal </b>&nbsp;
+                    </div>
+                </div>
+                <!--end  Welcome -->
+            </div>
                                    
     </div>
     <!-- end wrapper -->
@@ -208,9 +150,7 @@
     <script src="assets/plugins/morris/raphael-2.1.0.min.js"></script>
     <script src="assets/plugins/morris/morris.js"></script>
     <script src="assets/scripts/dashboard-demo.js"></script>
-
- 
-    
+    </div>
     </form>
 </body>
 </html>
