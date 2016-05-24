@@ -30,3 +30,4 @@ c:\users\personal\documents\visual studio 2015\Projects\WebApplication3\WebAppli
 c:\users\personal\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 c:\users\personal\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
 c:\users\personal\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Personal\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache

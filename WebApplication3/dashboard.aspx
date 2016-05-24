@@ -1,7 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dashboard.aspx.cs" Inherits="WebApplication3.dashboard" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboad </title>
     <!-- Core CSS - Include with every page -->
@@ -12,9 +15,11 @@
     <link href="assets/css/main-style.css" rel="stylesheet" />
     <!-- Page-Level CSS -->
     <link href="assets/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
-   </head>
+</head>
 <body>
-    <!--  wrapper -->
+    <form id="form1" runat="server">
+    <div style="height: 545px; width: 766px">
+     <!--  wrapper -->
     <div id="wrapper">
         <!-- navbar top -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
@@ -95,10 +100,10 @@
                     </li>
                     
                      <li>
-                        <a href="create.html"><i class="fa fa-edit fa-fw">CREATE</i></a>
+                        <a href="create.aspx"><i class="fa fa-edit fa-fw">CREATE</i></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa fa-table fa-fw">UPDATE</i></a>
+                        <a href="update.aspx"><i class="fa fa-table fa-fw">UPDATE</i></a>
                     </li>
                     <li>
                         <a href=""><i class="fa fa-scissors fa-fw">DELETE</i></a>
@@ -150,6 +155,7 @@
     <script src="assets/plugins/morris/morris.js"></script>
     <script src="assets/scripts/dashboard-demo.js"></script>
 
+    </div>
+    </form>
 </body>
-
 </html>
