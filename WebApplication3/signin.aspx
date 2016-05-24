@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
     <div style="height: 450px; width: 890px">
     
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 253px; top: 267px; position: absolute" Text="SIGN IN" OnClick="Button1_Click" />
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 253px; top: 267px; position: absolute" Text="SIGN IN" OnClick="Button1_Click" PostBackUrl="~/dashboard.aspx" />
         <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 195px; top: 134px; position: absolute; width: 96px;" Text="SIGN IN :"></asp:Label>
         <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 193px; top: 177px; position: absolute" Text="USERNAME"></asp:Label>
         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 193px; top: 216px; position: absolute; height: 21px; width: 96px" Text="PASSWORD"></asp:Label>

@@ -106,7 +106,7 @@
                         <a href="update.aspx"><i class="fa fa-table fa-fw">UPDATE</i></a>
                     </li>
                     <li>
-                        <a href=""><i class="fa fa-scissors fa-fw">DELETE</i></a>
+                        <a href="delete.aspx"><i class="fa fa-scissors fa-fw">DELETE</i></a>
                     </li>
                      
                     </li>
