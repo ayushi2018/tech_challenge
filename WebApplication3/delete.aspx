@@ -135,63 +135,11 @@
                 <div class="col-lg-12">
                     <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
 
-        <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 159px; top: 88px; position: absolute; right: 567px;"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 159px; top: 97px; position: absolute; right: 544px;"></asp:TextBox>
 
-        <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 75px; top: 125px; position: absolute" Text="Field"></asp:Label>
+      
 
-        
-         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 75px; top: 200px; position: absolute" Text="Field"></asp:Label>
-        <asp:Label ID="Label4" runat="server" style="z-index: 1; left: 75px; top: 230px; position: absolute" Text="Field"></asp:Label>
-
-        
-         <asp:Label ID="Label5" runat="server" style="z-index: 1; left: 75px; top: 162px; position: absolute" Text="Field"></asp:Label>
-
-
-        <asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; left: 158px; top: 130px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-        <asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; left: 158px; top: 166px; position: absolute; height: 16px; width: 129px">
-        <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem></asp:DropDownList>
-         <asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; left: 158px; top: 200px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-         <asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; left: 158px; top: 230px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 313px; position: absolute" Text="delete" />
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 148px; top: 204px; position: absolute" Text="delete" OnClick="Button1_Click" />
 
             </div></div>
                                    

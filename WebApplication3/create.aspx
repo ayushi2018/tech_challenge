@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Admin Dashboad </title>
     <!-- Core CSS - Include with every page -->
     <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
@@ -190,7 +190,7 @@
 
         <asp:TextBox ID="TextBox11" runat="server" style="z-index: 1; left: 159px; top: 495px; position: absolute"></asp:TextBox>
 
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 139px; top: 555px; position: absolute" Text="Create" />
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 139px; top: 555px; position: absolute" Text="Create" OnClick="Button1_Click" />
 
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Mandatory" style="z-index: 1; left: 385px; top: 88px; position: absolute" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Mandatory" style="z-index: 1; left: 385px; top: 125px; position: absolute" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>

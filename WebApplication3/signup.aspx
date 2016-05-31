@@ -65,7 +65,7 @@
 
         <asp:TextBox ID="TextBox11" runat="server" style="z-index: 1; left: 159px; top: 495px; position: absolute"></asp:TextBox>
 
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 139px; top: 555px; position: absolute" Text="Submit" />
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 139px; top: 555px; position: absolute" Text="Submit" OnClick="Button1_Click" />
 
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Mandatory" style="z-index: 1; left: 385px; top: 88px; position: absolute" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Mandatory" style="z-index: 1; left: 385px; top: 125px; position: absolute" ControlToValidate="TextBox2"></asp:RequiredFieldValidator>
