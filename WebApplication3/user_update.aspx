@@ -129,65 +129,66 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                 <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
+                 <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 75px; top: 125px; position: absolute" Text="User id"></asp:Label>
+
+
+        <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; left: 159px; top: 125px; position: absolute"></asp:TextBox>
+
+
+         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 75px; top: 162px; position: absolute" Text="Name"></asp:Label>
+
+
+        <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 159px; top: 162px; position: absolute"></asp:TextBox>
+
+
+     <asp:Label ID="Label4" runat="server" style="z-index: 1; left: 75px; top: 199px; position: absolute; height: 11px; width: 67px;" Text="Company Name"></asp:Label>
+
+
+        <asp:TextBox ID="TextBox4" runat="server" style="z-index: 1; left: 159px; top: 199px; position: absolute" ></asp:TextBox>
+
+
+         <asp:Label ID="Label5" runat="server" style="z-index: 1; left: 75px; top: 273px; position: absolute" Text="Address 1"></asp:Label>
+
+
+        <asp:TextBox ID="TextBox5" runat="server" style="z-index: 1; left: 159px; top: 273px; position: absolute"></asp:TextBox>
+
+
+         <asp:Label ID="Label6" runat="server" style="z-index: 1; left: 75px; top: 310px; position: absolute" Text="Address 2"></asp:Label>
+
+        <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; left: 159px; top: 310px; position: absolute"></asp:TextBox>
+
+     <asp:Label ID="Label7" runat="server" style="z-index: 1; left: 75px; top: 347px; position: absolute" Text="City"></asp:Label>
+
+        <asp:TextBox ID="TextBox7" runat="server" style="z-index: 1; left: 159px; top: 347px; position: absolute"></asp:TextBox>
+         <asp:Label ID="Label8" runat="server" style="z-index: 1; left: 75px; top: 384px; position: absolute" Text="State"></asp:Label>
+
+        <asp:TextBox ID="TextBox8" runat="server" style="z-index: 1; left: 159px; top: 384px; position: absolute"></asp:TextBox>
+
+
+         <asp:Label ID="Label9" runat="server" style="z-index: 1; left: 75px; top: 421px; position: absolute" Text="country"></asp:Label>
+
+
+        <asp:TextBox ID="TextBox9" runat="server" style="z-index: 1; left: 159px; top: 421px; position: absolute"></asp:TextBox>
+
+
+     <asp:Label ID="Label10" runat="server" style="z-index: 1; left: 75px; top: 458px; position: absolute" Text="Phone"></asp:Label>
+
+        <asp:TextBox ID="TextBox10" runat="server" style="z-index: 1; left: 159px; top: 458px; position: absolute"></asp:TextBox>
+
+         <asp:Label ID="Label11" runat="server" style="z-index: 1; left: 75px; top: 495px; position: absolute" Text="Mobile "></asp:Label>
+
+        <asp:TextBox ID="TextBox11" runat="server" style="z-index: 1; left: 159px; top: 495px; position: absolute"></asp:TextBox>
+
+        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 550px; position: absolute; height: 26px;" Text="update" OnClick="Button1_Click" />
+<asp:Label ID="Label1" runat="server" style="z-index: 1; left: 75px; top: 88px; position: absolute" Text="id"></asp:Label>
 
         <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 159px; top: 88px; position: absolute; right: 567px;"></asp:TextBox>
 
-        <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 75px; top: 125px; position: absolute" Text="Field"></asp:Label>
 
-        
-         <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 75px; top: 200px; position: absolute" Text="Field"></asp:Label>
-        <asp:Label ID="Label4" runat="server" style="z-index: 1; left: 75px; top: 230px; position: absolute" Text="Field"></asp:Label>
+  
 
-        
-         <asp:Label ID="Label5" runat="server" style="z-index: 1; left: 75px; top: 162px; position: absolute" Text="Field"></asp:Label>
+        <asp:Button ID="Button2" runat="server" style="z-index: 1; left: 310px; top: 88px; position: absolute; height: 26px;" Text="show" OnClick="Button2_Click" />
 
-
-        <asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; left: 158px; top: 130px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-        <asp:DropDownList ID="DropDownList2" runat="server" style="z-index: 1; left: 158px; top: 166px; position: absolute; height: 16px; width: 129px">
-        <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem></asp:DropDownList>
-         <asp:DropDownList ID="DropDownList3" runat="server" style="z-index: 1; left: 158px; top: 200px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-         <asp:DropDownList ID="DropDownList4" runat="server" style="z-index: 1; left: 158px; top: 230px; position: absolute; height: 16px; width: 129px">
-            <asp:ListItem>Name</asp:ListItem>
-            <asp:ListItem>Company_name</asp:ListItem>
-            <asp:ListItem>address 1</asp:ListItem>
-            <asp:ListItem>address 2</asp:ListItem>
-            <asp:ListItem>country</asp:ListItem>
-            <asp:ListItem>state</asp:ListItem>
-            <asp:ListItem>city</asp:ListItem>
-            <asp:ListItem>phone</asp:ListItem>
-            <asp:ListItem>Mobile</asp:ListItem>
-        </asp:DropDownList>
-
-        <asp:Button ID="Button1" runat="server" style="z-index: 1; left: 143px; top: 313px; position: absolute" Text="update" />
 
             </div></div>
                                    

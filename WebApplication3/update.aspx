@@ -96,7 +96,7 @@
                         <!--end search section-->
                     </li>
                     <li class="selected">
-                        <a href=""><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+                        <a href="dashboard.aspx"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                     </li>
                     
                      <li>

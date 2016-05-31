@@ -13,7 +13,26 @@ namespace WebApplication3
         SqlConnection con = new SqlConnection(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=Database1;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = System.Data.CommandType.Text;
 
+                cmd.CommandText = "select * from visiting_card";
+                SqlDataReader dr = cmd.ExecuteReader();
+                
+
+
+
+
+                con.Close();
+            }
+            catch (Exception)
+            {
+
+
+            }
         }
     }
 }

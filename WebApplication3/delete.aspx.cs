@@ -25,8 +25,8 @@ namespace WebApplication3
                 cmd.CommandType = System.Data.CommandType.Text;
                 cmd.CommandText = "DELETE from visiting_card WHERE id= " + TextBox1.Text;
                 cmd.ExecuteNonQuery();
-                Response.Redirect("<script> alert('successfully deleted')</script>");
-
+                Response.Write("<script> alert('successfully deleted')</script>");
+                TextBox1.Text = "";
 
                 con.Close();
             }

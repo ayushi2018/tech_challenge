@@ -26,7 +26,20 @@ namespace WebApplication3
                 cmd.CommandType = System.Data.CommandType.Text;
                 cmd.CommandText = "insert into visiting_card values('" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + TextBox7.Text + "','" + TextBox8.Text + "','" + TextBox9.Text + " ','" + TextBox10.Text + "','" + TextBox11.Text + "')";
                 cmd.ExecuteNonQuery();
-                Response.Redirect("<script> alert('successfully created')</script>");
+                Response.Write("<script> alert('successfully created')</script>");
+                TextBox1.Text = "";
+                TextBox2.Text = "";
+                TextBox3.Text = "";
+
+                TextBox4.Text = "";
+                TextBox5.Text = "";
+                TextBox6.Text = "";
+                TextBox7.Text = "";
+
+                TextBox8.Text = "";
+                TextBox9.Text = "";
+                TextBox10.Text = "";
+                TextBox11.Text = "";
 
 
                 con.Close();

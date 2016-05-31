@@ -132,10 +132,11 @@
             </div>
 
             <div class="row">
-                <!-- Welcome -->
+                
                 <div class="col-lg-12">
                     <div class="alert alert-info">
-                        <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>Welcome <b>Ayushi Bansal </b>&nbsp;
+                        <i class="fa fa-folder-open"></i><b>&nbsp;Hello ! </b>&nbsp;
+
                     </div>
                 </div>
                 <!--end  Welcome -->
